@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Mortgage Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="lila">
+        <header>
+          <h2>Mortgage Calculator</h2>
+          <button class="clear" form="form" type="reset">Clear All</button>
+        </header>
+        <form id="form">
+          <label for="amount">Mortgage Amount</label>
+          <div>
+            <input class="long" type="number" name="amount">
+            <p>£</p>
+          </div>
+          <div class="mortgage">
+            <label class="term" for="term">Mortgage Term</label>
+            <div>
+              <input type="number" name="term">
+              <p>years</p>
+            </div>
+            <label class="rate" for="rate">Mortgage Rate</label>
+            <div>
+              <input type="number" name="rate">
+              <p>%</p>
+            </div>
+          </div>
+            <label for="type">Mortgage Type</label>
+            <div class="repaye">
+              <input type="radio" name="Repayement">
+              <p>Repayement</p>
+            </div>
+            <div class="repaye">
+              <input type="radio" name="interest">
+              <p>Interest Only</p>
+            </div>
+              <button type="submit" class="calculate"><img class="calculate-repaye" src="public/Vector.png" alt="calculatrice-img">Calculate Repayements</button>
+          </div>
+        </form>
+      </div>
+      <div class="blue"></div>
+    </div>
+
+    <div class="container">
+      <div class="calcul"></div>
+      <div class="result"></div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>

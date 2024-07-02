@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #E4F4FD;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.lila {
+  width: 504px;
+  height: 606px;
+  padding: 30px 30px 30px 30px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+h2 {
+  color: #133041;
+  line-height: 30px;
+  width: 242px;
+}
+
+.long {
+  width: 424px;
+  height: 48px;
+  border-radius: 4px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+}
+
+.mortgage {
+  display: flex;
+  flex-direction: row;
+}
+
+.term {
+  display: flex;
+  flex-direction: column;
+}
+
+.clear {
+  border: none;
+  background: none;
+  text-decoration: underline;
+  color: #4E6E7E;
+  line-height: 24px;
+  width: 62px;
+  cursor: pointer;
+}
+
+.clear:hover {
+  color: #133041;
+}
+
+.blue {
+  width: 504px;
+  height: 606px;
+  background-color: #133041;
+  border-radius: 0px 24px 24px 80px;
+}
+
+.repaye {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 12px;
+  width: 424px;
+  height: 48px;
+  border-radius: 4px;
+  border: 1px solid #6B94A8;
+  line-height: 22.5px;
+  color: #133041;
+  font-weight: 700;
+  margin-top: 15px;
+}
+
+.calculate {
+  margin-top: 30px;
+  background-color:   #D8DB2F;
+  width: 314px;
+  height: 56px;
+  border: none;
+  border-radius: 30px;
+  color: #133041;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.calculate:hover {
+  background-color: rgb(216, 219, 47, 0.5);
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #E4F4FD;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+}
+
+.calcul {
+  width: 375px;
+  height: 698px;
+  background-color: white;
+}
+
+.result {
+  background-color: #133041;
+  border-radius: 0px 0px 0px 80px;
+  width: 375px;
+  height: 390px;
+} */
